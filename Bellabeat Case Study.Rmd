@@ -215,6 +215,6 @@ These insights were:
 
 2)  Include a function in the Bellabeat app to alert users to try and get at least 30 minutes of moderate activity if data shows that they are often sedentary throughout the day.
 
-3)  Have the app notify users with encouraging and motivating messages, especially if they have been sedentary for a extended period of time to stimulate activity.
+3)  Have the app notify users with encouraging and motivating messages, especially if they have been sedentary for a extended period of time to motivate activity.
 
 4)  Enhance the app to inform users of disruptive sleeping habits, such as irregular sleep schedules or not enough activity.
