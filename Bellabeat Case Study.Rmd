@@ -147,13 +147,13 @@ sqldf('SELECT Id, Date, Calories, TotalSteps, TotalDistance, TrackerDistance, Lo
 
 FROM daily_userData
 
-WHERE TotalActivity <> 0 AND  TotalTimeActive <> 0')
+WHERE TotalActivity <> 0 AND  TotalTimeActive <> 0 LIMIT 10')
 ```
 
 ```{r}
 sqldf('SELECT Id,Date,Calories, TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed, TotalSteps, TotalDistance, TrackerDistance, LoggedActivitiesDistance, (VeryActiveDistance+ModeratelyActiveDistance+LightActiveDistance) AS TotalActivity, SedentaryActiveDistance, (VeryActiveMinutes+FairlyActiveMinutes+LightlyActiveMinutes)/60 AS TimeActive, SedentaryMinutes/60 AS TimeSedentary
 
-FROM daily_userData')
+FROM daily_userData LIMIT 10')
 ```
 
 #### Visualizations
